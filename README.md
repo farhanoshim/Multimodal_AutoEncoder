@@ -13,7 +13,12 @@ This repository contains an implementation of a multimodal autoencoder designed 
 ---
 
 ## Requirements
-Install the required dependencies:
+- Python 3.8+
+- PyTorch
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+Install dependencies via:
 ```bash
-pip install torch torchvision torchaudio
-pip install matplotlib scikit-learn
+pip install -r requirements.txt
