@@ -9,6 +9,7 @@ This repository contains an implementation of a multimodal autoencoder designed 
 - **Denoising**: Learns to reconstruct clean signals from noisy inputs.
 - **Cross-Modal Reconstruction**: Trains the autoencoder to predict one modality from another.
 - **Dynamic Noise Injection**: Noise is added during training at the batch level for realistic augmentation.
+- **Handling Missing Modality**: Any all-NaN aka missing or flatline channel is masked & replaced with zeros; masks carried through losses.
 
 ---
 
