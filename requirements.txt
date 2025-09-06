@@ -1,0 +1,16 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Utilities
+numpy>=1.23.0
+matplotlib>=3.7.0
+
+# Development & notebooks
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Optional helpers
+tqdm>=4.65.0
+scikit-learn>=1.2.0
